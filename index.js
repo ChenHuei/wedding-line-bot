@@ -49,3 +49,39 @@ const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`listening on ${port}`);
 });
+
+/**
+ * message type
+ *
+ * sticker  => 貼圖
+ * image    => 照片
+ * video    => 影片
+ * audio    => 語音
+ * location => 座標
+ *
+ *
+ *
+ *
+ * emoji
+ *
+ * https://d.line-scdn.net/r/devcenter/sendable_line_emoji_list.pdf
+ *
+ * example:
+ *
+ *  {
+ *    type: 'text',
+ *    text: '$ emoji $'
+ *    emojis: [
+ *      {
+ *          index: 0,
+ *          product: 'xxx'
+ *          emojiId: '001
+ *       },
+ *       {
+ *          index: 8,
+ *          product: 'xxx'
+ *          emojiId: '002
+ *       }
+ *    ]
+ *  }
+ */
