@@ -68,6 +68,7 @@ function handleMessages(request, response) {
     const data = `data: ${JSON.stringify({ messages })}\n\n`;
 
     response.write(data);
+    messages.length = 0;
   }, 1000);
 
   request.on("close", () => {
