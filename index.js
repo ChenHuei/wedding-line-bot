@@ -57,6 +57,8 @@ function handleEvent(event) {
 }
 
 function handleMessages(request, response) {
+  console.log("connect...");
+
   const headers = {
     "Content-Type": "text/event-stream",
     Connection: "keep-alive",
@@ -64,15 +66,18 @@ function handleMessages(request, response) {
   };
   response.writeHead(200, headers);
 
-  setInterval(() => {
+  const timer = setInterval(() => {
     const data = `data: ${JSON.stringify({ messages })}\n\n`;
 
     response.write(data);
+
+    // clear messages
     messages.length = 0;
   }, 1000);
 
   request.on("close", () => {
-    console.log("Connection closed");
+    console.log("connection closed");
+    clearInterval(timer);
   });
 }
 
