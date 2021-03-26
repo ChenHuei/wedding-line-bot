@@ -5,6 +5,9 @@ const line = require("@line/bot-sdk");
 const express = require("express");
 const cors = require("cors");
 
+const { KEYWORD_COMPARISON } = require("./constants/keyword.ts");
+const { MESSAGE_CONTENT } = require("./constants/message.ts");
+
 // create LINE SDK config from env variables
 const config = {
   channelAccessToken: process.env.CHANNEL_ACCESS_TOKEN,
@@ -50,10 +53,19 @@ function handleEvent(event) {
     text,
   };
 
-  messages.push(text);
+  const result = Object.keys(KEYWORD_COMPARISON).reduce((acc, keyword) => {
+    if (acc === "" && text.includes(keyword)) {
+      acc = MESSAGE_CONTENT[KEYWORD_COMPARISON[keyword]];
+    }
+    return acc;
+  }, "");
+
+  if (result === "") {
+    messages.push(text);
+  }
 
   // use reply API
-  return client.replyMessage(event.replyToken, echo);
+  return client.replyMessage(event.replyToken, result || echo);
 }
 
 function handleMessages(request, response) {
