@@ -3,6 +3,7 @@ require("dotenv").config();
 
 const line = require("@line/bot-sdk");
 const express = require("express");
+const cors = require("cors");
 
 // create LINE SDK config from env variables
 const config = {
@@ -16,6 +17,12 @@ const client = new line.Client(config);
 // create Express app
 const app = express();
 
+app.use(cors());
+
+// create variables
+
+const messages = [];
+
 // register a webhook handler with middleware
 // about the middleware, please refer to doc
 app.post("/", line.middleware(config), (req, res) => {
@@ -26,6 +33,9 @@ app.post("/", line.middleware(config), (req, res) => {
       res.status(500).end();
     });
 });
+
+app.get("/test", (request, response) => response.json({ test: "test" }));
+app.get("/messages", handleMessages);
 
 // event handler
 function handleEvent(event) {
@@ -40,8 +50,29 @@ function handleEvent(event) {
     text,
   };
 
+  messages.push(text);
+
   // use reply API
   return client.replyMessage(event.replyToken, echo);
+}
+
+function handleMessages(request, response) {
+  const headers = {
+    "Content-Type": "text/event-stream",
+    Connection: "keep-alive",
+    "Cache-Control": "no-cache",
+  };
+  response.writeHead(200, headers);
+
+  setInterval(() => {
+    const data = `data: ${JSON.stringify({ messages })}\n\n`;
+
+    response.write(data);
+  }, 1000);
+
+  request.on("close", () => {
+    console.log("Connection closed");
+  });
 }
 
 // listen on port
