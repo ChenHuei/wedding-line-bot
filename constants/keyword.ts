@@ -1,33 +1,21 @@
 const KEYWORD_COMPARISON = {
   // 新郎
-  bridegroom: "bridegroom",
-  新郎: "bridegroom",
-  陳振輝: "bridegroom",
-  振輝: "bridegroom",
-  小輝: "bridegroom",
+  新郎是誰: "bridegroom",
 
   // 新娘
-  bride: "bride",
-  新娘: "bride",
-  曾蓓珊: "bride",
-  蓓珊: "bride",
+  新娘是誰: "bride",
 
   // 新娘更正版
   被刪: "brideFixed",
 
   // 菜單
-  menu: "menu",
-  菜單: "menu",
-  吃什麼: "menu",
+  今天吃什麼: "menu",
 
   // 場地
-  location: "location",
-  場地: "location",
-  在哪裡: "location",
+  場地在哪裡: "location",
 
   // 流程
-  flow: "flow",
-  流程: "flow",
+  流程是什麼: "flow",
 };
 
 module.exports = {
