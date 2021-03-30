@@ -7,6 +7,7 @@ const cors = require("cors");
 
 const { KEYWORD_COMPARISON } = require("./constants/keyword.ts");
 const { MESSAGE_CONTENT } = require("./constants/message.ts");
+const { DIRTY_WORDS } = require("./constants/dirty.ts");
 
 // create LINE SDK config from env variables
 const config = {
@@ -47,12 +48,19 @@ function handleEvent(event) {
     return Promise.resolve(null);
   }
 
-  const text = event.message.text;
+  // filter dirty words
+  const text = DIRTY_WORDS.reduce(
+    (acc, item) => acc.replace(new RegExp(item), "*".repeat(item.length)),
+    event.message.text
+  );
+
+  // echo message
   const echo = {
     type: "text",
     text,
   };
 
+  // mapping keyword
   const result = Object.keys(KEYWORD_COMPARISON).reduce((acc, keyword) => {
     if (acc === "" && text.includes(keyword)) {
       acc = MESSAGE_CONTENT[KEYWORD_COMPARISON[keyword]];
@@ -60,6 +68,7 @@ function handleEvent(event) {
     return acc;
   }, "");
 
+  // server sent event
   if (result === "") {
     messages.push(text);
   }

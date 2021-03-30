@@ -1,4 +1,4 @@
-const BREAK_LINE = "%0D%0A";
+const BREAK_LINE = "\n";
 
 const MESSAGE_CONTENT = {
   bridegroom: [
