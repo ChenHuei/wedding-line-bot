@@ -1,3 +1,5 @@
+const BREAK_LINE = "%0D%0A";
+
 const MESSAGE_CONTENT = {
   bridegroom: [
     {
@@ -59,13 +61,7 @@ const MESSAGE_CONTENT = {
   flow: [
     {
       type: "text",
-      text: `
-        這是我們當天的流程
-
-        12:00   賓客入席
-        12:30   午宴用餐
-        14:30   合照送客
-      `,
+      text: `這是我們當天的流程${BREAK_LINE}12:00   賓客入席${BREAK_LINE}12:30   午宴用餐${BREAK_LINE}14:30   合照送客`,
     },
   ],
 };
