@@ -2,6 +2,7 @@
 require("dotenv").config();
 
 const line = require("@line/bot-sdk");
+const axios = require("axios");
 const express = require("express");
 const cors = require("cors");
 
@@ -33,12 +34,10 @@ app.post("/", line.middleware(config), (req, res) => {
   Promise.all(req.body.events.map(handleEvent))
     .then((result) => res.json(result))
     .catch((err) => {
-      console.error(err);
       res.status(500).end();
     });
 });
 
-app.get("/test", (request, response) => response.json({ test: "test" }));
 app.get("/messages", handleMessages);
 
 // event handler
@@ -48,38 +47,42 @@ function handleEvent(event) {
     return Promise.resolve(null);
   }
 
-  // filter dirty words
-  const text = DIRTY_WORDS.reduce(
-    (acc, item) => acc.replace(new RegExp(item), "*".repeat(item.length)),
-    event.message.text
-  );
+  return axios
+    .get(`https://api.line.me/v2/bot/profile/${event.source.userId}`, {
+      headers: { Authorization: `Bearer ${process.env.CHANNEL_ACCESS_TOKEN}` },
+    })
+    .then((res) => {
+      // filter dirty words
+      const text = DIRTY_WORDS.reduce(
+        (acc, item) => acc.replace(new RegExp(item), "*".repeat(item.length)),
+        event.message.text
+      );
 
-  // echo message
-  const echo = {
-    type: "text",
-    text,
-  };
+      // echo message
+      const echo = {
+        type: "text",
+        text,
+      };
 
-  // mapping keyword
-  const result = Object.keys(KEYWORD_COMPARISON).reduce((acc, keyword) => {
-    if (acc === "" && text.includes(keyword)) {
-      acc = MESSAGE_CONTENT[KEYWORD_COMPARISON[keyword]];
-    }
-    return acc;
-  }, "");
+      // mapping keyword
+      const result = Object.keys(KEYWORD_COMPARISON).reduce((acc, keyword) => {
+        if (acc === "" && text.includes(keyword)) {
+          acc = MESSAGE_CONTENT[KEYWORD_COMPARISON[keyword]];
+        }
+        return acc;
+      }, "");
 
-  // server sent event
-  if (result === "") {
-    messages.push(text);
-  }
+      // server sent event
+      if (result === "") {
+        messages.push({ user: res.data, text });
+      }
 
-  // use reply API
-  return client.replyMessage(event.replyToken, result || echo);
+      // use reply API
+      return client.replyMessage(event.replyToken, result || echo);
+    });
 }
 
 function handleMessages(request, response) {
-  console.log("connect...");
-
   const headers = {
     "Content-Type": "text/event-stream",
     Connection: "keep-alive",
@@ -97,7 +100,6 @@ function handleMessages(request, response) {
   }, 1000);
 
   request.on("close", () => {
-    console.log("connection closed");
     clearInterval(timer);
   });
 }
