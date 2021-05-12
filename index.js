@@ -20,6 +20,8 @@ const config = {
 
 // create LINE SDK client
 const client = new line.Client(config);
+
+// initialize firebase
 admin.initializeApp({
   credential: admin.credential.cert({
     type: process.env.TYPE,
@@ -78,7 +80,7 @@ function handleEvent(event) {
       // echo message
       const echo = {
         type: "text",
-        text,
+        text: `${text} (已收到)`,
       };
 
       // mapping keyword
