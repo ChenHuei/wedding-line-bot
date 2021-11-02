@@ -4,7 +4,7 @@ const MESSAGE_CONTENT = {
   when: [
     {
       type: "text",
-      text: `我們的喜宴舉辦在 2021年12月11日(六) 午宴${BREAK_LINE}12:00   賓客入席${BREAK_LINE}11:30   迎賓酒會${BREAK_LINE}12:00   賓客入席${BREAK_LINE}12:30   午宴開席${BREAK_LINE}14:30   合照送客`,
+      text: `我們的喜宴舉辦在 2021年12月11日(六) 午宴${BREAK_LINE}11:30   迎賓酒會${BREAK_LINE}12:00   賓客入席${BREAK_LINE}12:30   午宴開席${BREAK_LINE}14:30   合照送客${BREAK_LINE}${BREAK_LINE}請準時到場不然新娘會生氣喔${BREAK_LINE}o(｀ω´ )o`,
     },
   ],
   where: [
