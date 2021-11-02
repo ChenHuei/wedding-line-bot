@@ -75,7 +75,11 @@ const MESSAGE_CONTENT = {
   blessing: [
     {
       type: "text",
-      text: "此功能將於婚禮當天開放喲！",
+      text: "謝謝你的祝福 (((o(*ﾟ▽ﾟ*)o)))",
+    },
+    {
+      type: "text",
+      text: "但此功能將於婚禮當天開放喲！",
     },
   ],
 };
