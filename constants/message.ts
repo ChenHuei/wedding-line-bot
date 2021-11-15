@@ -1,6 +1,9 @@
 const BREAK_LINE = "\n";
 
 const MESSAGE_CONTENT = {
+  /**
+   * line 圖文訊息
+   */
   when: [
     {
       type: "text",
@@ -80,6 +83,66 @@ const MESSAGE_CONTENT = {
     {
       type: "text",
       text: "但此功能將於婚禮當天開放喲！",
+    },
+  ],
+  /**
+   * 自由發揮
+   */
+  congregation: [
+    {
+      type: "text",
+      text: "謝謝你～當天要一起來玩喔ヽ(●´∀`●)ﾉ",
+    },
+  ],
+  badWord: [
+    {
+      type: "text",
+      text: "大囍之日怎麼可以罵人哩？你壞！",
+    },
+  ],
+  bride: [
+    {
+      type: "text",
+      text: "我也這麼覺得(*´∀`)~♥️",
+    },
+  ],
+  bridegroom: [
+    {
+      type: "text",
+      text: "我也這麼覺得ε٩(๑> ₃ <)۶з",
+    },
+    {
+      type: "text",
+      text: "但新娘更美喔",
+    },
+    {
+      type: "image",
+      originalContentUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1635866339/4_ogalnr.webp",
+      previewImageUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1635866339/4_ogalnr.webp",
+    },
+  ],
+  alcohol: [
+    {
+      type: "text",
+      text: "當天不准把我們灌醉",
+    },
+    {
+      type: "text",
+      text: "但送客如果沒有新郎，新娘會生氣喔(´･_･`)",
+    },
+  ],
+  touching: [
+    {
+      type: "text",
+      text: "(｡◕∀◕｡)",
+    },
+  ],
+  moon: [
+    {
+      type: "text",
+      text: "你認錯人了 我是美人魚喔(*´▽`*)",
     },
   ],
 };

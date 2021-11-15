@@ -92,16 +92,15 @@ function handleEvent(event) {
       }, "");
 
       // server sent event and save in firebase
-      if (result === "") {
-        const message = {
-          ...res.data,
-          text,
-          createdAt: new Date().getTime(),
-        };
 
-        admin.firestore().collection("messages").doc().set(message);
-        messages.push(message);
-      }
+      const message = {
+        ...res.data,
+        text,
+        createdAt: new Date().getTime(),
+      };
+
+      admin.firestore().collection("messages").doc().set(message);
+      messages.push(message);
 
       // use reply API
       return client.replyMessage(event.replyToken, result || echo);
