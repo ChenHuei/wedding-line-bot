@@ -59,6 +59,16 @@ const KEYWORD_COMPARISON = {
   月亮: "moon",
 };
 
+const IGNORE_KEYWORD = [
+  "when",
+  "where",
+  "seat",
+  "pictures",
+  "surveycake",
+  "blessing",
+];
+
 module.exports = {
   KEYWORD_COMPARISON,
+  IGNORE_KEYWORD,
 };
