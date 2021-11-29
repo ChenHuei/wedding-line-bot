@@ -103,7 +103,7 @@ function handleEvent(event) {
       };
 
       admin.firestore().collection("messages").doc().set(message);
-      if (!IGNORE_KEYWORD.includes(IGNORE_KEYWORD)) {
+      if (!IGNORE_KEYWORD.includes(KEYWORD_COMPARISON[text])) {
         messages.push(message);
       }
 
