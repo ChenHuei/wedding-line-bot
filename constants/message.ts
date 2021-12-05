@@ -86,6 +86,105 @@ const MESSAGE_CONTENT = {
     },
   ],
   /**
+   * 座位圖
+   */
+  "14table": [
+    {
+      type: "text",
+      text: "你坐在 14 桌喔ヽ(●´∀`●)ﾉ",
+    },
+  ],
+  "15table": [
+    {
+      type: "text",
+      text: "你坐在 15 桌喔ヽ(●´∀`●)ﾉ",
+    },
+  ],
+  "16table": [
+    {
+      type: "text",
+      text: "你坐在 16 桌喔ヽ(●´∀`●)ﾉ",
+    },
+  ],
+  "17table": [
+    {
+      type: "text",
+      text: "你坐在 17 桌喔ヽ(●´∀`●)ﾉ",
+    },
+  ],
+  "37table": [
+    {
+      type: "text",
+      text: "你坐在 37 桌喔ヽ(●´∀`●)ﾉ",
+    },
+  ],
+  "39table": [
+    {
+      type: "text",
+      text: "你坐在 39 桌喔ヽ(●´∀`●)ﾉ",
+    },
+  ],
+  "36table": [
+    {
+      type: "text",
+      text: "你坐在 36 桌喔ヽ(●´∀`●)ﾉ",
+    },
+  ],
+  "38table": [
+    {
+      type: "text",
+      text: "你坐在 38 桌喔ヽ(●´∀`●)ﾉ",
+    },
+  ],
+  "22table": [
+    {
+      type: "text",
+      text: "你坐在 22 桌喔ヽ(●´∀`●)ﾉ",
+    },
+  ],
+  "29table": [
+    {
+      type: "text",
+      text: "你坐在 29 桌喔ヽ(●´∀`●)ﾉ",
+    },
+  ],
+  "30table": [
+    {
+      type: "text",
+      text: "你坐在 30 桌喔ヽ(●´∀`●)ﾉ",
+    },
+  ],
+  "24table": [
+    {
+      type: "text",
+      text: "你坐在 24 桌喔ヽ(●´∀`●)ﾉ",
+    },
+  ],
+  "31table": [
+    {
+      type: "text",
+      text: "你坐在 31 桌喔ヽ(●´∀`●)ﾉ",
+    },
+  ],
+  "23table": [
+    {
+      type: "text",
+      text: "你坐在 23 桌喔ヽ(●´∀`●)ﾉ",
+    },
+  ],
+  "25table": [
+    {
+      type: "text",
+      text: "你坐在 25 桌喔ヽ(●´∀`●)ﾉ",
+    },
+  ],
+  "32table": [
+    {
+      type: "text",
+      text: "你坐在 32 桌喔ヽ(●´∀`●)ﾉ",
+    },
+  ],
+  /**
    * 自由發揮
    */
   congregation: [
