@@ -242,6 +242,19 @@ const KEYWORD_COMPARISON = {
   振輝超帥: "bridegroom",
   新郎超帥: "bridegroom",
 
+  好帥: "praise",
+  太帥了: "praise",
+  太帥了吧: "praise",
+  好酷: "praise",
+  太酷了: "praise",
+  太酷了吧: "praise",
+  讚: "praise",
+  好讚: "praise",
+  太讚了吧: "praise",
+  猛: "praise",
+  好猛: "praise",
+  太猛了吧: "praise",
+
   酒: "alcohol",
 
   感動: "touching",

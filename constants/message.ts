@@ -83,7 +83,7 @@ const MESSAGE_CONTENT = {
   "14table": [
     {
       type: "text",
-      text: "婚禮當天你坐在 14 桌喔ヽ(●´∀`●)ﾉ",
+      text: `婚禮當天你坐在 14 桌哦 (不過還是會依現場狀況調整唷)${BREAK_LINE}ヽ(●\´∀\`●)ﾉ`,
     },
     {
       type: "image",
@@ -91,12 +91,16 @@ const MESSAGE_CONTENT = {
         "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
       previewImageUrl:
         "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
+    },
+    {
+      type: "text",
+      text: `你可是坐在搖滾區呢，當天請大聲尖叫，就靠你們了 (⁎⁍̴̛ᴗ⁍̴̛⁎)`,
     },
   ],
   "15table": [
     {
       type: "text",
-      text: "婚禮當天你坐在 15 桌喔ヽ(●´∀`●)ﾉ",
+      text: `婚禮當天你坐在 15 桌哦 (不過還是會依現場狀況調整唷)${BREAK_LINE}ヽ(●\´∀\`●)ﾉ`,
     },
     {
       type: "image",
@@ -104,12 +108,16 @@ const MESSAGE_CONTENT = {
         "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
       previewImageUrl:
         "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
+    },
+    {
+      type: "text",
+      text: `你可是坐在搖滾區呢，當天請大聲尖叫，就靠你們了 (⁎⁍̴̛ᴗ⁍̴̛⁎)`,
     },
   ],
   "16table": [
     {
       type: "text",
-      text: "婚禮當天你坐在 16 桌喔ヽ(●´∀`●)ﾉ",
+      text: `婚禮當天你坐在 16 桌哦 (不過還是會依現場狀況調整唷)${BREAK_LINE}ヽ(●\´∀\`●)ﾉ`,
     },
     {
       type: "image",
@@ -117,12 +125,16 @@ const MESSAGE_CONTENT = {
         "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
       previewImageUrl:
         "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
+    },
+    {
+      type: "text",
+      text: `你可是坐在搖滾區呢，當天請大聲尖叫，就靠你們了 (⁎⁍̴̛ᴗ⁍̴̛⁎)`,
     },
   ],
   "17table": [
     {
       type: "text",
-      text: "婚禮當天你坐在 17 桌喔ヽ(●´∀`●)ﾉ",
+      text: `婚禮當天你坐在 17 桌哦 (不過還是會依現場狀況調整唷)${BREAK_LINE}ヽ(●\´∀\`●)ﾉ`,
     },
     {
       type: "image",
@@ -130,12 +142,16 @@ const MESSAGE_CONTENT = {
         "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
       previewImageUrl:
         "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
+    },
+    {
+      type: "text",
+      text: `你可是坐在搖滾區呢，當天請大聲尖叫，就靠你們了 (⁎⁍̴̛ᴗ⁍̴̛⁎)`,
     },
   ],
   "21table": [
     {
       type: "text",
-      text: "婚禮當天你坐在 21 桌喔ヽ(●´∀`●)ﾉ",
+      text: `婚禮當天你坐在 21 桌哦 (不過還是會依現場狀況調整唷)${BREAK_LINE}ヽ(●\´∀\`●)ﾉ`,
     },
     {
       type: "image",
@@ -143,12 +159,16 @@ const MESSAGE_CONTENT = {
         "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
       previewImageUrl:
         "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
+    },
+    {
+      type: "text",
+      text: `你可是坐在搖滾區呢，當天請大聲尖叫，就靠你們了 (⁎⁍̴̛ᴗ⁍̴̛⁎)`,
     },
   ],
   "22table": [
     {
       type: "text",
-      text: "婚禮當天你坐在 22 桌喔ヽ(●´∀`●)ﾉ",
+      text: `婚禮當天你坐在 22 桌哦 (不過還是會依現場狀況調整唷)${BREAK_LINE}ヽ(●\´∀\`●)ﾉ`,
     },
     {
       type: "image",
@@ -156,12 +176,16 @@ const MESSAGE_CONTENT = {
         "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
       previewImageUrl:
         "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
+    },
+    {
+      type: "text",
+      text: `你可是坐在搖滾區呢，當天請大聲尖叫，就靠你們了 (⁎⁍̴̛ᴗ⁍̴̛⁎)`,
     },
   ],
   "23table": [
     {
       type: "text",
-      text: "婚禮當天你坐在 23 桌喔ヽ(●´∀`●)ﾉ",
+      text: `婚禮當天你坐在 23 桌哦 (不過還是會依現場狀況調整唷)${BREAK_LINE}ヽ(●\´∀\`●)ﾉ`,
     },
     {
       type: "image",
@@ -169,12 +193,16 @@ const MESSAGE_CONTENT = {
         "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
       previewImageUrl:
         "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
+    },
+    {
+      type: "text",
+      text: `你可是坐在搖滾區呢，當天請大聲尖叫，就靠你們了 (⁎⁍̴̛ᴗ⁍̴̛⁎)`,
     },
   ],
   "24table": [
     {
       type: "text",
-      text: "婚禮當天你坐在 24 桌喔ヽ(●´∀`●)ﾉ",
+      text: `婚禮當天你坐在 24 桌哦 (不過還是會依現場狀況調整唷)${BREAK_LINE}ヽ(●\´∀\`●)ﾉ`,
     },
     {
       type: "image",
@@ -183,11 +211,15 @@ const MESSAGE_CONTENT = {
       previewImageUrl:
         "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
     },
+    {
+      type: "text",
+      text: `你可是坐在搖滾區呢，當天請大聲尖叫，就靠你們了 (⁎⁍̴̛ᴗ⁍̴̛⁎)`,
+    },
   ],
   "28table": [
     {
       type: "text",
-      text: "婚禮當天你坐在 28 桌喔ヽ(●´∀`●)ﾉ",
+      text: `婚禮當天你坐在 28 桌哦 (不過還是會依現場狀況調整唷)${BREAK_LINE}ヽ(●\´∀\`●)ﾉ`,
     },
     {
       type: "image",
@@ -200,7 +232,7 @@ const MESSAGE_CONTENT = {
   "29table": [
     {
       type: "text",
-      text: "婚禮當天你坐在 29 桌喔ヽ(●´∀`●)ﾉ",
+      text: `婚禮當天你坐在 29 桌哦 (不過還是會依現場狀況調整唷)${BREAK_LINE}ヽ(●\´∀\`●)ﾉ`,
     },
     {
       type: "image",
@@ -213,7 +245,7 @@ const MESSAGE_CONTENT = {
   "30table": [
     {
       type: "text",
-      text: "婚禮當天你坐在 30 桌喔ヽ(●´∀`●)ﾉ",
+      text: `婚禮當天你坐在 30 桌哦 (不過還是會依現場狀況調整唷)${BREAK_LINE}ヽ(●\´∀\`●)ﾉ`,
     },
     {
       type: "image",
@@ -226,7 +258,7 @@ const MESSAGE_CONTENT = {
   "31table": [
     {
       type: "text",
-      text: "婚禮當天你坐在 31 桌喔ヽ(●´∀`●)ﾉ",
+      text: `婚禮當天你坐在 31 桌哦 (不過還是會依現場狀況調整唷)${BREAK_LINE}ヽ(●\´∀\`●)ﾉ`,
     },
     {
       type: "image",
@@ -239,7 +271,7 @@ const MESSAGE_CONTENT = {
   "34table": [
     {
       type: "text",
-      text: "婚禮當天你坐在 34 桌喔ヽ(●´∀`●)ﾉ",
+      text: `婚禮當天你坐在 34 桌哦 (不過還是會依現場狀況調整唷)${BREAK_LINE}ヽ(●\´∀\`●)ﾉ`,
     },
     {
       type: "image",
@@ -252,7 +284,7 @@ const MESSAGE_CONTENT = {
   "36table": [
     {
       type: "text",
-      text: "婚禮當天你坐在 36 桌喔ヽ(●´∀`●)ﾉ",
+      text: `婚禮當天你坐在 36 桌哦 (不過還是會依現場狀況調整唷)${BREAK_LINE}ヽ(●\´∀\`●)ﾉ`,
     },
     {
       type: "image",
@@ -265,7 +297,7 @@ const MESSAGE_CONTENT = {
   "37table": [
     {
       type: "text",
-      text: "婚禮當天你坐在 37 桌喔ヽ(●´∀`●)ﾉ",
+      text: `婚禮當天你坐在 37 桌哦 (不過還是會依現場狀況調整唷)${BREAK_LINE}ヽ(●\´∀\`●)ﾉ`,
     },
     {
       type: "image",
@@ -278,7 +310,7 @@ const MESSAGE_CONTENT = {
   "38table": [
     {
       type: "text",
-      text: "婚禮當天你坐在 38 桌喔ヽ(●´∀`●)ﾉ",
+      text: `婚禮當天你坐在 38 桌哦 (不過還是會依現場狀況調整唷)${BREAK_LINE}ヽ(●\´∀\`●)ﾉ`,
     },
     {
       type: "image",
@@ -294,7 +326,7 @@ const MESSAGE_CONTENT = {
   congregation: [
     {
       type: "text",
-      text: "謝謝你～當天要一起來玩喔ヽ(●´∀`●)ﾉ",
+      text: `"謝謝你～當天要一起來玩哦${BREAK_LINE}ヽ(●\´∀\`●)ﾉ`,
     },
   ],
   badWord: [
@@ -307,6 +339,12 @@ const MESSAGE_CONTENT = {
     {
       type: "text",
       text: "我也這麼覺得(*´∀`)~♥️",
+    },
+  ],
+  praise: [
+    {
+      type: "text",
+      text: "麥安捏共，哇欸拍謝拉哈哈哈哈 (*´∀`)~♥️",
     },
   ],
   bridegroom: [
