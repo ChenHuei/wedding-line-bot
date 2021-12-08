@@ -92,10 +92,6 @@ const MESSAGE_CONTENT = {
       previewImageUrl:
         "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
     },
-    {
-      type: "text",
-      text: `你可是坐在搖滾區呢，當天請大聲尖叫，就靠你們了 (⁎⁍̴̛ᴗ⁍̴̛⁎)`,
-    },
   ],
   "15table": [
     {
@@ -108,10 +104,6 @@ const MESSAGE_CONTENT = {
         "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
       previewImageUrl:
         "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
-    },
-    {
-      type: "text",
-      text: `你可是坐在搖滾區呢，當天請大聲尖叫，就靠你們了 (⁎⁍̴̛ᴗ⁍̴̛⁎)`,
     },
   ],
   "16table": [
@@ -126,10 +118,6 @@ const MESSAGE_CONTENT = {
       previewImageUrl:
         "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
     },
-    {
-      type: "text",
-      text: `你可是坐在搖滾區呢，當天請大聲尖叫，就靠你們了 (⁎⁍̴̛ᴗ⁍̴̛⁎)`,
-    },
   ],
   "17table": [
     {
@@ -142,10 +130,6 @@ const MESSAGE_CONTENT = {
         "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
       previewImageUrl:
         "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
-    },
-    {
-      type: "text",
-      text: `你可是坐在搖滾區呢，當天請大聲尖叫，就靠你們了 (⁎⁍̴̛ᴗ⁍̴̛⁎)`,
     },
   ],
   "21table": [
@@ -160,10 +144,6 @@ const MESSAGE_CONTENT = {
       previewImageUrl:
         "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
     },
-    {
-      type: "text",
-      text: `你可是坐在搖滾區呢，當天請大聲尖叫，就靠你們了 (⁎⁍̴̛ᴗ⁍̴̛⁎)`,
-    },
   ],
   "22table": [
     {
@@ -176,10 +156,6 @@ const MESSAGE_CONTENT = {
         "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
       previewImageUrl:
         "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
-    },
-    {
-      type: "text",
-      text: `你可是坐在搖滾區呢，當天請大聲尖叫，就靠你們了 (⁎⁍̴̛ᴗ⁍̴̛⁎)`,
     },
   ],
   "23table": [
@@ -194,10 +170,6 @@ const MESSAGE_CONTENT = {
       previewImageUrl:
         "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
     },
-    {
-      type: "text",
-      text: `你可是坐在搖滾區呢，當天請大聲尖叫，就靠你們了 (⁎⁍̴̛ᴗ⁍̴̛⁎)`,
-    },
   ],
   "24table": [
     {
@@ -210,10 +182,6 @@ const MESSAGE_CONTENT = {
         "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
       previewImageUrl:
         "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
-    },
-    {
-      type: "text",
-      text: `你可是坐在搖滾區呢，當天請大聲尖叫，就靠你們了 (⁎⁍̴̛ᴗ⁍̴̛⁎)`,
     },
   ],
   "28table": [
