@@ -83,8 +83,7 @@ const KEYWORD_COMPARISON = {
   王柏元: "36table",
   邱筱婷: "36table",
   江婉菱: "36table",
-  江江: "36table",
-  珮珊: "36table",
+  陳珮珊: "36table",
 
   Vito: "37table",
   黃祥驊: "37table",
@@ -162,6 +161,7 @@ const KEYWORD_COMPARISON = {
 
   許雅雯: "24table",
   Blackrys: "24table",
+  Beta: "24table",
   陳又寧: "24table",
   孫韻茹: "24table",
   Tasha: "24table",

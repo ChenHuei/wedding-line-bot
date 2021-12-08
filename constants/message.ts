@@ -26,15 +26,7 @@ const MESSAGE_CONTENT = {
   seat: [
     {
       type: "text",
-      text: `不好意思，我們還沒有安排好${BREAK_LINE}等大家表單填寫完畢我們將盡快安排${BREAK_LINE}完成後會再推播給大家喲！`,
-    },
-    {
-      type: "text",
-      text: "還沒填寫表單的話請點以下連結",
-    },
-    {
-      type: "text",
-      text: "https://www.surveycake.com/s/X422r",
+      text: `想知道婚禮當天坐哪裡嗎?${BREAK_LINE}請輸入你的大名 (´▽｀)`,
     },
   ],
   pictures: [
@@ -91,97 +83,209 @@ const MESSAGE_CONTENT = {
   "14table": [
     {
       type: "text",
-      text: "你坐在 14 桌喔ヽ(●´∀`●)ﾉ",
+      text: "婚禮當天你坐在 14 桌喔ヽ(●´∀`●)ﾉ",
+    },
+    {
+      type: "image",
+      originalContentUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
+      previewImageUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
     },
   ],
   "15table": [
     {
       type: "text",
-      text: "你坐在 15 桌喔ヽ(●´∀`●)ﾉ",
+      text: "婚禮當天你坐在 15 桌喔ヽ(●´∀`●)ﾉ",
+    },
+    {
+      type: "image",
+      originalContentUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
+      previewImageUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
     },
   ],
   "16table": [
     {
       type: "text",
-      text: "你坐在 16 桌喔ヽ(●´∀`●)ﾉ",
+      text: "婚禮當天你坐在 16 桌喔ヽ(●´∀`●)ﾉ",
+    },
+    {
+      type: "image",
+      originalContentUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
+      previewImageUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
     },
   ],
   "17table": [
     {
       type: "text",
-      text: "你坐在 17 桌喔ヽ(●´∀`●)ﾉ",
+      text: "婚禮當天你坐在 17 桌喔ヽ(●´∀`●)ﾉ",
+    },
+    {
+      type: "image",
+      originalContentUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
+      previewImageUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
     },
   ],
   "21table": [
     {
       type: "text",
-      text: "你坐在 21 桌喔ヽ(●´∀`●)ﾉ",
+      text: "婚禮當天你坐在 21 桌喔ヽ(●´∀`●)ﾉ",
+    },
+    {
+      type: "image",
+      originalContentUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
+      previewImageUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
     },
   ],
   "22table": [
     {
       type: "text",
-      text: "你坐在 22 桌喔ヽ(●´∀`●)ﾉ",
+      text: "婚禮當天你坐在 22 桌喔ヽ(●´∀`●)ﾉ",
+    },
+    {
+      type: "image",
+      originalContentUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
+      previewImageUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
     },
   ],
   "23table": [
     {
       type: "text",
-      text: "你坐在 23 桌喔ヽ(●´∀`●)ﾉ",
+      text: "婚禮當天你坐在 23 桌喔ヽ(●´∀`●)ﾉ",
+    },
+    {
+      type: "image",
+      originalContentUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
+      previewImageUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
     },
   ],
   "24table": [
     {
       type: "text",
-      text: "你坐在 24 桌喔ヽ(●´∀`●)ﾉ",
+      text: "婚禮當天你坐在 24 桌喔ヽ(●´∀`●)ﾉ",
+    },
+    {
+      type: "image",
+      originalContentUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
+      previewImageUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
     },
   ],
   "28table": [
     {
       type: "text",
-      text: "你坐在 28 桌喔ヽ(●´∀`●)ﾉ",
+      text: "婚禮當天你坐在 28 桌喔ヽ(●´∀`●)ﾉ",
+    },
+    {
+      type: "image",
+      originalContentUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
+      previewImageUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
     },
   ],
   "29table": [
     {
       type: "text",
-      text: "你坐在 29 桌喔ヽ(●´∀`●)ﾉ",
+      text: "婚禮當天你坐在 29 桌喔ヽ(●´∀`●)ﾉ",
+    },
+    {
+      type: "image",
+      originalContentUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
+      previewImageUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
     },
   ],
   "30table": [
     {
       type: "text",
-      text: "你坐在 30 桌喔ヽ(●´∀`●)ﾉ",
+      text: "婚禮當天你坐在 30 桌喔ヽ(●´∀`●)ﾉ",
+    },
+    {
+      type: "image",
+      originalContentUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
+      previewImageUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
     },
   ],
   "31table": [
     {
       type: "text",
-      text: "你坐在 31 桌喔ヽ(●´∀`●)ﾉ",
+      text: "婚禮當天你坐在 31 桌喔ヽ(●´∀`●)ﾉ",
+    },
+    {
+      type: "image",
+      originalContentUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
+      previewImageUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
     },
   ],
   "34table": [
     {
       type: "text",
-      text: "你坐在 34 桌喔ヽ(●´∀`●)ﾉ",
+      text: "婚禮當天你坐在 34 桌喔ヽ(●´∀`●)ﾉ",
+    },
+    {
+      type: "image",
+      originalContentUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
+      previewImageUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
     },
   ],
   "36table": [
     {
       type: "text",
-      text: "你坐在 36 桌喔ヽ(●´∀`●)ﾉ",
+      text: "婚禮當天你坐在 36 桌喔ヽ(●´∀`●)ﾉ",
+    },
+    {
+      type: "image",
+      originalContentUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
+      previewImageUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
     },
   ],
   "37table": [
     {
       type: "text",
-      text: "你坐在 37 桌喔ヽ(●´∀`●)ﾉ",
+      text: "婚禮當天你坐在 37 桌喔ヽ(●´∀`●)ﾉ",
+    },
+    {
+      type: "image",
+      originalContentUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
+      previewImageUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
     },
   ],
   "38table": [
     {
       type: "text",
-      text: "你坐在 38 桌喔ヽ(●´∀`●)ﾉ",
+      text: "婚禮當天你坐在 38 桌喔ヽ(●´∀`●)ﾉ",
+    },
+    {
+      type: "image",
+      originalContentUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
+      previewImageUrl:
+        "https://res.cloudinary.com/dtssrpk5g/image/upload/v1638973450/%E6%8C%AF%E8%BC%9D%E8%93%93%E7%8F%8A%E9%9B%BB%E5%AD%90%E6%A1%8C%E5%9C%96_aqhnxa.jpg",
     },
   ],
   /**
