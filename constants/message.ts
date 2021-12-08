@@ -112,34 +112,34 @@ const MESSAGE_CONTENT = {
       text: "你坐在 17 桌喔ヽ(●´∀`●)ﾉ",
     },
   ],
-  "37table": [
+  "21table": [
     {
       type: "text",
-      text: "你坐在 37 桌喔ヽ(●´∀`●)ﾉ",
-    },
-  ],
-  "39table": [
-    {
-      type: "text",
-      text: "你坐在 39 桌喔ヽ(●´∀`●)ﾉ",
-    },
-  ],
-  "36table": [
-    {
-      type: "text",
-      text: "你坐在 36 桌喔ヽ(●´∀`●)ﾉ",
-    },
-  ],
-  "38table": [
-    {
-      type: "text",
-      text: "你坐在 38 桌喔ヽ(●´∀`●)ﾉ",
+      text: "你坐在 21 桌喔ヽ(●´∀`●)ﾉ",
     },
   ],
   "22table": [
     {
       type: "text",
       text: "你坐在 22 桌喔ヽ(●´∀`●)ﾉ",
+    },
+  ],
+  "23table": [
+    {
+      type: "text",
+      text: "你坐在 23 桌喔ヽ(●´∀`●)ﾉ",
+    },
+  ],
+  "24table": [
+    {
+      type: "text",
+      text: "你坐在 24 桌喔ヽ(●´∀`●)ﾉ",
+    },
+  ],
+  "28table": [
+    {
+      type: "text",
+      text: "你坐在 28 桌喔ヽ(●´∀`●)ﾉ",
     },
   ],
   "29table": [
@@ -154,34 +154,34 @@ const MESSAGE_CONTENT = {
       text: "你坐在 30 桌喔ヽ(●´∀`●)ﾉ",
     },
   ],
-  "24table": [
-    {
-      type: "text",
-      text: "你坐在 24 桌喔ヽ(●´∀`●)ﾉ",
-    },
-  ],
   "31table": [
     {
       type: "text",
       text: "你坐在 31 桌喔ヽ(●´∀`●)ﾉ",
     },
   ],
-  "23table": [
+  "34table": [
     {
       type: "text",
-      text: "你坐在 23 桌喔ヽ(●´∀`●)ﾉ",
+      text: "你坐在 34 桌喔ヽ(●´∀`●)ﾉ",
     },
   ],
-  "25table": [
+  "36table": [
     {
       type: "text",
-      text: "你坐在 25 桌喔ヽ(●´∀`●)ﾉ",
+      text: "你坐在 36 桌喔ヽ(●´∀`●)ﾉ",
     },
   ],
-  "32table": [
+  "37table": [
     {
       type: "text",
-      text: "你坐在 32 桌喔ヽ(●´∀`●)ﾉ",
+      text: "你坐在 37 桌喔ヽ(●´∀`●)ﾉ",
+    },
+  ],
+  "38table": [
+    {
+      type: "text",
+      text: "你坐在 38 桌喔ヽ(●´∀`●)ﾉ",
     },
   ],
   /**

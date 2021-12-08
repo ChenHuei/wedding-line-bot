@@ -10,6 +10,8 @@ const DIRTY_WORDS = [
   "靠邀",
   "靠腰",
   "靠北",
+  "爛",
+  "遜"
 ];
 
 module.exports = {
