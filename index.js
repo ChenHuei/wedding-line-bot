@@ -8,10 +8,7 @@ const admin = require("firebase-admin");
 const express = require("express");
 const cors = require("cors");
 
-const {
-  KEYWORD_COMPARISON,
-  IGNORE_KEYWORD,
-} = require("./constants/keyword.ts");
+const { KEYWORD_COMPARISON } = require("./constants/keyword.ts");
 const { MESSAGE_CONTENT } = require("./constants/message.ts");
 const { DIRTY_WORDS } = require("./constants/dirty.ts");
 
@@ -95,7 +92,6 @@ function handleEvent(event) {
       }, "");
 
       // server sent event and save in firebase
-
       const message = {
         ...res.data,
         text,
@@ -103,9 +99,7 @@ function handleEvent(event) {
       };
 
       admin.firestore().collection("messages").doc().set(message);
-      if (!IGNORE_KEYWORD.includes(KEYWORD_COMPARISON[text])) {
-        messages.push(message);
-      }
+      messages.push(message);
 
       // use reply API
       return client.replyMessage(event.replyToken, result || echo);
